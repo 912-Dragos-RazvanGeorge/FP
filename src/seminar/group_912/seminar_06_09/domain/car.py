@@ -1,7 +1,7 @@
 """
 Implement the domain class
 """
-
+import random
 
 class Car:
     def __init__(self, license_plate="n/a", make='', model='', color=''):
@@ -84,6 +84,9 @@ def generate_cars(n=50):
         3. Generate color - choose from a predefined list of colors
         """
         # data.append(car)
+        countie=random.choice('CJ','B','SM','TM','CT','SJ','MM','BH','OT')
+        nr=randint(1,100)
+
         pass
     return data
 
